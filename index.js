@@ -15,6 +15,6 @@ app.post("/", async(req,res) => {
   }
 })
 
-app.get('/', (req,res) => res.redirect('https://github.com/codingstudios/Fetch-Relay'))
+app.get('*', (req,res) => res.redirect('https://github.com/codingstudios/Fetch-Relay'))
 
 app.listen(3000);
